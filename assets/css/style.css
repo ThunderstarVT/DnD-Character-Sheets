@@ -118,3 +118,8 @@ details[open]>summary {
 .section>blockquote {
     margin-block-start: 0.5em;
 }
+
+.section>blockquote>p {
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+}
