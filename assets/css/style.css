@@ -55,7 +55,7 @@ main::-webkit-scrollbar {
     display: none;
 }
 
-#sheet-select {
+.sheet-select {
     width: 100%;
     height: 96px;
 
@@ -67,19 +67,19 @@ main::-webkit-scrollbar {
     white-space: nowrap;
 }
 
-#sheet-select img {
+.sheet-select img {
     width: auto;
     height: auto;
     max-height: 92px;
 }
 
-#sheet-select a {
+.sheet-select a {
     font-size: 70px;
     font-weight: bold;
     font-family: 'Luminari';
 
-    position: relative;
-    bottom: 24px;
+    position: sticky;
+    bottom: 0px;
 
     text-decoration:none;
 }
