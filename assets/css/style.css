@@ -127,3 +127,12 @@ details[open]>summary {
 ul {
     list-style-type: none;
 }
+
+abbr {
+    font-family: consolas;
+    text-decoration: underline solid;
+}
+
+img {
+    width: 100%;
+}
